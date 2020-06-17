@@ -20,5 +20,21 @@
     "babel-preset-react": "^6.24.1"
   },
   "author": "faruxue",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haolic/resize-wrap.git"
+  },
+  "keywords": [
+    "拖拽",
+    "调整",
+    "宽度"
+  ],
+  "bugs": {
+    "url": "https://github.com/haolic/resize-wrap/issues"
+  },
+  "homepage": "https://github.com/haolic/resize-wrap#readme"
 }
