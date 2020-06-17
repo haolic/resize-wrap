@@ -4,7 +4,6 @@
 
 ``` bash
 $ npm install resize-wrap --save-dev
-const hhh = ;
 ```
 
 ### USE
