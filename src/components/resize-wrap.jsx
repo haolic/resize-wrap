@@ -60,7 +60,7 @@ const Resize = props => {
         border: '1px solid #f90'
       }}
     >
-      <div style={{ width: leftWidth, float: 'left', height: '100%' }}>{leftPart}</div>
+      <div style={{ width: leftWidth, float: 'left', height: '100%', overflow: 'auto' }}>{leftPart}</div>
       <div
         style={{
           width: 1,
@@ -89,6 +89,7 @@ const Resize = props => {
           float: 'right',
           width: width - leftWidth,
           height: '100%',
+          overflow: 'auto'
         }}
       >
         {rightPart}
