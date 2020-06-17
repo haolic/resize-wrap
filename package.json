@@ -1,6 +1,6 @@
 {
-  "name": "resize-wrap",
-  "version": "1.0.5",
+  "name": "resize-container",
+  "version": "1.0.0",
   "description": "一个拖拽调整左右宽度的组件",
   "main": "index.js",
   "scripts": {
