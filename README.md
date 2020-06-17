@@ -3,16 +3,16 @@
 ### INSTALL
 
 ``` bash
-$ npm install resize-wrap --save-dev
+$ npm install resize-container --save-dev
 ```
 
 ### USE
 
 ```
-import ResizeWrap from 'resize-wrap';
+import ResizeContainer from 'resize-container';
 
 export default () => (
-    <ResizeWrap
+    <ResizeContainer
         leftPart={<div>left component</div>}
         rightPart={<div>right component</div>}
     />
