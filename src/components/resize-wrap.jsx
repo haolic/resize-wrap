@@ -6,8 +6,8 @@ const Resize = props => {
     rightMinWidth = 0,
     height = 600,
     width = 800,
-    leftPart = <div>左</div>,
-    rightPart = <div>右右右右右右右右右右右右右右右右右右</div>,
+    leftPart = <div></div>,
+    rightPart = <div></div>,
   } = props;
 
   const [leftWidth, setLeftWidth] = useState(width / 2);
